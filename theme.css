@@ -1,0 +1,68 @@
+body {
+  white-space: pre;
+  font-family: monospace;
+  background: #333;
+  color: #fcfcfe;
+}
+
+.property {
+  font-weight: bold;
+  color:#dd4499;
+}
+
+.type-null {
+  color: gray;
+}
+
+.type-boolean {
+  color: gold;
+}
+
+.type-number {
+  color: gold;
+}
+
+.type-string {
+  color: #00cc99;
+}
+
+.callback-function {
+  color: #aaa;
+}
+
+.collapser:after {
+  content: "-";
+}
+
+.collapsed > .collapser:after {
+  content: "+";
+}
+
+.ellipsis:after {
+  content: " … ";
+}
+
+.collapsible {
+  margin-left: 2em;
+}
+
+.hoverable {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+}
+
+.hovered {
+  background-color: rgba(255,255,255, 0.07);  
+}
+
+.collapser {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+a {
+  color: skyblue;
+}
