@@ -4,5 +4,5 @@ Dark theme I made for the jsonview browser extension, uses a similar colour sche
 ## Install
 **Chrome**: click JSONView options link in [chrome://extensions](chrome://extensions) and paste in the CSS from theme.css.
 
-## License
+## Licence
 The Unlicense.
